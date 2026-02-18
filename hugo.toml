@@ -24,6 +24,16 @@ defaultContentLanguageInSubdir = false
     Gitlab = "sushi1903"
     Xing = "Patrik_Koptik"
 
+  [params.footer]
+    enable = true
+    # Hier definierst du, was neben der Jahreszahl stehen soll
+    author = "Patrik Koptik"
+    # Zeigt das Startjahr bis heute an (z.B. 2021 - 2026)
+    since = 2026
+    # Zusätzlicher Text (Custom HTML möglich!)
+    custom = "All rights reserved. If not stated otherwise."
+    copyright = true
+
 [languages]
   [languages.de]
     weight = 1
