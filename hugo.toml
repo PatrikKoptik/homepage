@@ -24,6 +24,11 @@ defaultContentLanguageInSubdir = false
     Gitlab = "sushi1903"
     Xing = "Patrik_Koptik"
 
+  [params.section]
+    [params.section.share]
+      enable = true
+      sites = ["linkedin", "mastodon"]
+
   [params.footer]
     enable = true
     # Hier definierst du, was neben der Jahreszahl stehen soll
