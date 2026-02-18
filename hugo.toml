@@ -1,7 +1,11 @@
-baseURL = 'https://your-github-username.github.io/'
+baseURL = 'https://patrikkoptik.github.io/'
 languageCode = 'en-us'
-title = 'My Professional Portfolio'
+title = 'Patrik Koptik'
 theme = 'congo'
+
+# ADD THIS SECTION:
+[author]
+  name = "Patrik Koptik"
 
 [params]
   # Theme color scheme: 'emerald', 'blue', 'slate', etc.
