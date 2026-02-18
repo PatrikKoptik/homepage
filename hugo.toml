@@ -1,33 +1,21 @@
 baseURL = 'https://www.patrikkoptik.de'
-languageCode = 'en'
+languageCode = 'de-de'
 title = 'Patrik Koptik'
-theme = 'LoveIt'
+theme = 'FixIt'
 
 # ADD THIS SECTION:
 [author]
   name = "Patrik Koptik"
 
 [params]
-  # Standard-Farbschema ("light", "dark", "auto")
-  defaultTheme = "auto"
-
-  [params.header]
-    desktopMode = "fixed"
-    mobileMode = "auto"
-
-  [params.footer]
-    enable = true
-    copyright = true
-    author = true
-    since = 2026
+  version = "0.3.X"
 
   [params.home]
     [params.home.profile]
       enable = true
-      avatarURL = "/images/avatar.png" # Bild in /static/images/ ablegen
-      title = "Home"
+      title = "Patrik Koptik"
       subtitle = "Cloud Native & Platform Engineer | Kubernetes Enthusiast"
-      typeit = true # Schicker Schreibmaschinen-Effekt
+      typeit = true
       social = true
 
   [params.social]
@@ -38,24 +26,36 @@ theme = 'LoveIt'
     Xing = "Patrik_Koptik"
 
 [languages]
-  [languages.en]
+  [languages.de]
     weight = 1
-    languageCode = "en"
+    languageCode = "de-de"
+    languageName = "Deutsch"
+    title = "Patrik Koptik"
+    [languages.de.menu]
+      [[languages.de.menu.main]]
+        identifier = "posts"
+        name = "Beiträge"
+        url = "/posts/"
+        weight = 1
+
+  [languages.en]
+    weight = 2
+    languageCode = "en-us"
     languageName = "English"
-    [[languages.en.menu.main]]
-      identifier = "posts"
-      pre = ""
-      post = ""
-      name = "Posts"
-      url = "/posts/"
-      title = ""
-      weight = 1
+    title = "Patrik Koptik"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+        weight = 1
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = true # Erlaubt HTML in Markdown (oft nötig für LoveIt)
+      unsafe = true
   [markup.highlight]
     codeFences = true
     guessSyntax = true
     lineNos = true
+    style = "monokai" # Ein klassischer Dark-Mode Style für Code

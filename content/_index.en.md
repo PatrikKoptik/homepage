@@ -1,22 +1,23 @@
 +++
 title = "Patrik Koptik"
 +++
----
-
-### 💼 Berufliche Stationen
-**INTER Versicherungsgruppe** *Mannheim*
-
-* **IT-Systemadministrator** *März 2024 – Heute*
-    * Fokus auf Cloud Platforming, Kubernetes & Infrastructure as Code.
-* **Werkstudent IT Ops - Administration** *2022 – 2024*
-* **Werkstudent Software Engineering** *2020 – 2022*
 
 ---
 
-### 🎓 Akademischer Werdegang
-**Hochschule Mannheim**
-* **Bachelor of Science: Informatik** *2019 – 2024*
-    * Schwerpunkte: Cloud-Infrastruktur & Verteilte Systeme.
+### 💼 Professional Experience
+**INTER Insurance Group** *Mannheim, Germany*
+
+* **IT Systems Administrator** *March 2024 – Present*
+  * Focus on Cloud Platforming, Kubernetes & IaC.
+* **Working Student IT Ops** *2022 – 2024*
+* **Working Student Software Engineering** *2020 – 2022*
+* **Apprenticeship Software Development** *Completed 2019*
+
+---
+
+### 🎓 Education
+**Mannheim University of Applied Sciences**
+* **Bachelor of Science: Computer Science** *2019 – 2024*
 
 ---
 
