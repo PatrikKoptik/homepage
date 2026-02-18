@@ -1,0 +1,21 @@
+baseURL = 'https://your-github-username.github.io/'
+languageCode = 'en-us'
+title = 'My Professional Portfolio'
+theme = 'congo'
+
+[params]
+  # Theme color scheme: 'emerald', 'blue', 'slate', etc.
+  colorScheme = "slate"
+  # Layout options
+  layoutWidth = "max-w-4xl"
+  description = "Senior Developer Portfolio"
+
+[params.header]
+  layout = "fixed" # Keeps the nav at the top
+
+[params.homepage]
+  layout = "profile" # The "About Me" focus you wanted
+  showRecent = true
+
+[params.footer]
+  showCopyright = true
