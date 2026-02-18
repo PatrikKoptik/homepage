@@ -8,3 +8,5 @@ categories = ["News"]
 +++
 
 Dies ist mein erster Beitrag auf meiner neuen Hugo-Seite. Hier werde ich zukünftig über Kubernetes und Platform Engineering schreiben.
+
+{{< posts >}}

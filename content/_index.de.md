@@ -27,4 +27,4 @@ Ich schlage die Brücke zwischen **Softwareentwicklung** und **IT-Betrieb**. Mei
 **Observability & Security**
 `Prometheus & Grafana Stack (LGTM)` `ELK Stack` `Network Policies` `OPA`
 
- 
+{{< mastodon >}}

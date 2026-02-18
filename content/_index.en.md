@@ -45,4 +45,4 @@ Ich schlage die Brücke zwischen **Softwareentwicklung** und **IT-Betrieb**. Mei
 * **GitOps:** Die gesamte Plattform wird über deklarativen Code gesteuert.
 
 ---
- 
+{{< mastodon >}}
