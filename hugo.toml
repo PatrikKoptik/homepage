@@ -50,3 +50,12 @@ theme = 'LoveIt'
       url = "/posts/"
       title = ""
       weight = 1
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # Erlaubt HTML in Markdown (oft nötig für LoveIt)
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
