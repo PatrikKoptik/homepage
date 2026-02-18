@@ -8,28 +8,45 @@ theme = 'congo'
   name = "Patrik Koptik"
 
 [params]
-  # Theme color scheme: 'emerald', 'blue', 'slate', etc.
-  colorScheme = "slate"
-  # Layout options
-  layoutWidth = "max-w-4xl"
-  description = "Senior Developer Portfolio"
+  # Standard-Farbschema ("light", "dark", "auto")
+  defaultTheme = "auto"
 
-# Congo specifically checks this to avoid the warning error
-[params.author]
-  name = "Patrik Koptik"
-  # image = "profile.jpg"
-  headline = "Platform Engineer"
-  bio = "I am a Platform Engineer working on Kubernetes and Cloud Native technologies."
-  links = [
-      { github = "https://github.com/PatrikKoptik" }
-  ]
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
 
-[params.header]
-  layout = "fixed" # Keeps the nav at the top
+  [params.footer]
+    enable = true
+    copyright = true
+    author = true
+    since = 2026
 
-[params.homepage]
-  layout = "profile" # The "About Me" focus you wanted
-  showRecent = true
+  [params.home]
+    [params.home.profile]
+      enable = true
+      avatarURL = "/images/avatar.png" # Bild in /static/images/ ablegen
+      title = "Home"
+      subtitle = "Cloud Native & Platform Engineer | Kubernetes Enthusiast"
+      typeit = true # Schicker Schreibmaschinen-Effekt
+      social = true
 
-[params.footer]
-  showCopyright = true
+  [params.social]
+    GitHub = "PatrikKoptik"
+    Linkedin = "patrik-koptik-27a165258"
+    Mastodon = "@patrik@k8s.social"
+    Gitlab = "sushi1903"
+    Xing = "Patrik_Koptik"
+
+[languages]
+  [languages.en]
+    weight = 1
+    languageCode = "en"
+    languageName = "English"
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "Posts"
+      url = "/posts/"
+      title = ""
+      weight = 1
