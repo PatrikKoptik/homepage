@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alle Artikel - Patrik Koptik</title><link>https://patrikkoptik.de/posts/</link><description>Patrik Koptik</description><generator>Hugo 0.156.0 &amp; FixIt v0.4.3-20260130042349-e23a50d7</generator><language>de-de</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://patrikkoptik.de/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello, World!</title><link>https://patrikkoptik.de/posts/01-post/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://patrikkoptik.de/posts/01-post/</guid><category domain="https://patrikkoptik.de/categories/news/">News</category><description>&lt;p&gt;Dies ist mein erster Beitrag auf meiner neuen Hugo-Seite. Hier werde ich zukünftig über Kubernetes und Platform Engineering schreiben.&lt;/p&gt;
 &lt;hr style="margin: 40px 0 20px; border: 0; border-top: 1px solid #eee;"&gt;
 &lt;div style="font-size: 0.95rem; color: #555; line-height: 1.6;"&gt;
- &lt;p&gt;
  Hat dir der Beitrag gefallen? Diskutiere gerne auf
  &lt;a href="https://k8s.social/@patrik" target="_blank" rel="noopener me" style="color: #595aff; text-decoration: underline;"&gt;Mastodon&lt;/a&gt;
  mit mir oder
@@ -11,6 +10,5 @@
  style="color: #595aff; font-weight: 500;"&gt;
  🐘 teile diesen Post
  &lt;/a&gt;.
- &lt;/p&gt;
  &lt;meta name="fediverse:creator" content="@patrik@k8s.social"&gt;
 &lt;/div&gt;</description></item></channel></rss>
