@@ -1,4 +1,4 @@
-baseURL = 'https://www.patrikkoptik.de'
+baseURL = 'https://patrikkoptik.de'
 languageCode = 'de-de'
 title = 'Patrik Koptik'
 theme = 'FixIt'
@@ -8,6 +8,8 @@ defaultContentLanguageInSubdir = false
 [params]
   version = "0.3.X"
   [params.home]
+    section = "none"
+    showItems = false
     [params.home.profile]
       enable = true
       title = "Patrik Koptik"
