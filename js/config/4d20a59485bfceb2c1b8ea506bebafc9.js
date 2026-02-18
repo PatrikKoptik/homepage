@@ -1,0 +1,1 @@
+window.config={"comment":{"enable":false},"cookieconsent":{"content":{"dismiss":"Zustimmen","link":"Erfahren Sie mehr","message":"Diese Website verwendet Cookies, um Ihre Erfahrung zu verbessern."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"version":"v0.4.3-20260130042349-e23a50d7"};
