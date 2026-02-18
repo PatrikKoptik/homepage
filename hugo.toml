@@ -2,14 +2,11 @@ baseURL = 'https://www.patrikkoptik.de'
 languageCode = 'de-de'
 title = 'Patrik Koptik'
 theme = 'FixIt'
-
-# ADD THIS SECTION:
-[author]
-  name = "Patrik Koptik"
+defaultContentLanguage = "de"
+defaultContentLanguageInSubdir = false
 
 [params]
   version = "0.3.X"
-
   [params.home]
     [params.home.profile]
       enable = true
@@ -33,10 +30,29 @@ theme = 'FixIt'
     title = "Patrik Koptik"
     [languages.de.menu]
       [[languages.de.menu.main]]
+        identifier = "experience"
+        pre = "<i class='fa-solid fa-briefcase'></i>"
+        name = "Erfahrung"
+        url = "/experience/"
+        weight = 1
+      [[languages.de.menu.main]]
+        identifier = "techstack"
+        pre = "<i class='fa-solid fa-code'></i>"
+        name = "Tech Stack"
+        url = "/techstack/"
+        weight = 2
+      [[languages.de.menu.main]]
         identifier = "posts"
+        pre = "<i class='fa-solid fa-pen-nib'></i>"
         name = "Beiträge"
         url = "/posts/"
-        weight = 1
+        weight = 3
+      [[languages.de.menu.main]]
+        identifier = "contact"
+        pre = "<i class='fa-solid fa-envelope'></i>"
+        name = "Kontakt"
+        url = "/contact/"
+        weight = 4
 
   [languages.en]
     weight = 2
@@ -45,10 +61,29 @@ theme = 'FixIt'
     title = "Patrik Koptik"
     [languages.en.menu]
       [[languages.en.menu.main]]
+        identifier = "experience"
+        pre = "<i class='fa-solid fa-briefcase'></i>"
+        name = "Experience"
+        url = "/experience/"
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "techstack"
+        pre = "<i class='fa-solid fa-code'></i>"
+        name = "Tech Stack"
+        url = "/techstack/"
+        weight = 2
+      [[languages.en.menu.main]]
         identifier = "posts"
+        pre = "<i class='fa-solid fa-pen-nib'></i>"
         name = "Posts"
         url = "/posts/"
-        weight = 1
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "contact"
+        pre = "<i class='fa-solid fa-envelope'></i>"
+        name = "Contact"
+        url = "/contact/"
+        weight = 4
 
 [markup]
   [markup.goldmark]
@@ -58,4 +93,3 @@ theme = 'FixIt'
     codeFences = true
     guessSyntax = true
     lineNos = true
-    style = "monokai" # Ein klassischer Dark-Mode Style für Code
