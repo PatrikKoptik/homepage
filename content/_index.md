@@ -12,8 +12,10 @@ status = "Reach out to me!"
 [[links]]
   icon = "mastodon"
   link = "https://k8s.social/@patrik"
-  rel = "me"
 
+[[links]]
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/patrik-koptik-27a165258/"
 +++
 
 ### About Me
