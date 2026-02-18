@@ -1,7 +1,7 @@
 baseURL = 'https://www.patrikkoptik.de'
-languageCode = 'en-us'
+languageCode = 'en'
 title = 'Patrik Koptik'
-theme = 'congo'
+theme = 'LoveIt'
 
 # ADD THIS SECTION:
 [author]
