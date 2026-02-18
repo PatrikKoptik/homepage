@@ -14,6 +14,16 @@ theme = 'congo'
   layoutWidth = "max-w-4xl"
   description = "Senior Developer Portfolio"
 
+# Congo specifically checks this to avoid the warning error
+[params.author]
+  name = "Patrik Koptik"
+  # image = "profile.jpg"
+  headline = "Platform Engineer"
+  bio = "I am a Platform Engineer working on Kubernetes and Cloud Native technologies."
+  links = [
+      { github = "https://github.com/PatrikKoptik" }
+  ]
+
 [params.header]
   layout = "fixed" # Keeps the nav at the top
 
